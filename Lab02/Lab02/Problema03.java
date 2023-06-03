@@ -9,6 +9,8 @@ public class Problema03 {
         Scanner sc=new Scanner (System.in);
         System.out.println("Ingresa la base del triangulo a imprimir: ");
         int base = sc.nextInt();
+
+
         trianguloRecursivo(base);
     }
 
